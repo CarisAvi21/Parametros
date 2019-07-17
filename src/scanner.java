@@ -12,7 +12,7 @@ class MyClass {
        // System.out.println("Parametro");
 
 
-        separeteString = completeString.split("[\\%\\$\\|\\&\\.\\#\\(\\)\\*\\^]");
+        separeteString = completeString.split("[\\%\\$\\|\\&\\.\\#\\(\\)\\*\\^\\/]");
 
         for (int i = 0; i <separeteString.length; i++){
 
